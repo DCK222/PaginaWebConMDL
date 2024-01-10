@@ -1,0 +1,156 @@
+/* para el header */
+.demo-layout-transparent {
+    background: url('../assets/demos/transparent.jpg') center / cover;
+  }
+  .demo-layout-transparent .mdl-layout__header,
+  .demo-layout-transparent .mdl-layout__drawer-button {
+    /* This background is dark, so we set text to white. Use 87% black instead if
+       your background is light. */
+    color: white;
+  }
+/* fin header */
+/* Para las tarjetas */
+
+.demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+  }
+  .demo-card-square > .mdl-card__title {
+    color: #fff;
+    background:
+      url('../assets/demos/dog.png') bottom right 15% no-repeat #46B6AC;
+  }
+  /* fin para las tarjetas */
+  /* Tipo Tarjeta 2 */
+  #tarjetas2{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+#tarjetas3{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+  .demo-card-wide.mdl-card {
+    width: 320px;
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: #fff;
+    height: 176px;
+    background: url('../assets/demos/welcome_card.jpg') center / cover;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
+  /* fin tipo tarjeta 2 */
+  /* valoraciones populares */
+  .demo-list-three {
+    width: 650px;
+  }
+  /* valoraciones populares */
+
+body{
+    overflow-x: hidden;
+    margin: 0;
+            padding: 0;
+}
+button{
+    margin-top: 1%;
+}
+
+#titulobot{
+    margin-top: 5%;
+    margin-left: 10%;
+    font-size: 40px;
+    font-family: 'titi', sans-serif;
+}
+#cabecera {
+    width: 100%;
+    overflow: hidden;
+}
+
+#cabecera img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+#contenidoinicial {
+    
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0 auto; /* Esto centra el contenido en el contenedor */
+    max-width: 800px; /* Puedes ajustar esto según tus preferencias para limitar el ancho del contenido */
+}
+#notieicas{
+   
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 0 auto; /* Esto centra el contenido en el contenedor */
+    max-width: 1000px; /* Puedes ajustar esto según tus preferencias para limitar el ancho del contenido */
+
+}
+#intro{
+    margin-top: 5%;
+    font-size: 18px;
+    
+}
+#intro2{
+    margin-top: 5%;
+    font-size: 18px;
+}
+#contenedorbotones{
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+#contenedortarjetas{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+#contenedortabal{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+@font-face {
+    font-family: 'titi'; /* Puedes elegir el nombre que desees */
+    src: url('fuentes/Titillium Black.otf') format('opentype'); /* Ajusta la ruta según la ubicación de tu archivo de fuente */
+  }
+
+
+  .botonesinfo{
+    width: 100%;
+    text-align: center;
+    margin-top: 3%;
+  }
+  #tarjetas4{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;
+}
+
+#container {
+  width: 80%;
+  margin: 0 auto;
+}
+footer{
+  margin-top: 5%;
+}
+/* Estilos para la sección de Educación */
+
+

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+  <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- HEADER  DE LA PAGINA -->
+  <div class="demo-layout-transparent mdl-layout mdl-js-layout">
+    <header class="mdl-layout__header mdl-layout__header--transparent">
+      <div class="mdl-layout__header-row">
+        <!-- Title -->
+        <span class="mdl-layout-title"><img width="130px" src="img/logos/MEga-removebg-preview.png" alt=""></span>
+        <!-- Add spacer, to align navigation to the right -->
+        <div class="mdl-layout-spacer"></div>
+        <!-- Navigation -->
+        <!-- <A> DEL HEADER -->
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="mdl-template-article/index.html">Sony</a>
+          <a class="mdl-navigation__link" href="mdl-template-text-only/index.html">Xbox</a>
+          <a class="mdl-navigation__link" href="mdl-template-blog/index.html">Pc</a>
+          <a class="mdl-navigation__link" href="">Switch</a>
+        </nav>
+      </div>
+    </header>
+    <!-- PARA EL BOTON DE ABRIR -->
+    <div class="mdl-layout__drawer">
+      <!-- TITULO -->
+      <span class="mdl-layout-title">Tecnologias</span>
+      <!-- TIPOS -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Sony</a>
+        <a class="mdl-navigation__link" href="">Xbox</a>
+        <a class="mdl-navigation__link" href="">Pc</a>
+        <a class="mdl-navigation__link" href="">Switch</a>
+      </nav>
+    </div>
+    <main class="mdl-layout__content">
+    </main>
+  </div>
+
+
+
+  <div>
+    <div id="cabecera">
+
+      <img src="img/Navy Blue Geometric Technology LinkedIn Banner.png" alt="">
+    </div>
+    <!-- TEXTO DEL INICIO -->
+    <div id="contenidoinicial">
+      <p id="intro">¡Te damos la más cordial bienvenida a Gamesphere, el epicentro virtual donde la exploración del
+        fascinante universo de los videojuegos alcanza su punto culminante! Aquí, te invitamos a sumergirte en un
+        abanico de experiencias que van más allá de lo convencional: desde las últimas noticias que marcan la pauta,
+        hasta reseñas minuciosas que te guiarán en la selección de tus próximos títulos. Acompáñanos en entrevistas
+        exclusivas con los maestros detrás de tus juegos favoritos y, por supuesto, únete a nuestra comunidad gamer, un
+        vibrante núcleo donde la camaradería y la pasión convergen.
+
+        Gamesphere no es simplemente un portal, ¡es tu puerta de acceso a un cosmos donde la diversión y la entrega a
+        los videojuegos están a tan solo un clic de distancia! Así que, prepárate para emprender un viaje inmersivo,
+        donde las aventuras virtuales toman un nuevo y emocionante significado. ¡Bienvenido a la esencia misma de los
+        videojuegos, bienvenido a Gamesphere!</p>
+    </div>
+    <div id="contenedorbotones">
+      <!-- PARA LOS BOTONES PODEMOS CAMBIAR LOS ICONOS DE PENDIENDO DE NOMBRE QUE PONGAS EN EL <I> -->
+      <!-- BOTON PERSONA -->
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+        <i class="material-icons">person</i>
+      </button>
+      <!-- BOTON CODE -->
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+        <i class="material-icons">code</i>
+      </button>
+      <!-- BOTON EMAIL -->
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
+        <i class="material-icons">email</i>
+      </button>
+
+    </div>
+    <!-- BOTON MOSTRAR MENSAJE -->
+    <div class="botonesinfo">
+      <button id="demo-show-toast" class="mdl-button mdl-js-button mdl-button--raised" type="button">Mostrar
+        Mensaje</button>
+      <div id="demo-toast-example" class="mdl-js-snackbar mdl-snackbar">
+        <div class="mdl-snackbar__text"></div>
+        <button class="mdl-snackbar__action" type="button"></button>
+      </div>
+    </div>
+
+    <!-- SECCION DE LAS PLATAFORMAS -->
+    <h1 id="titulobot">PLATAFORMAS</h1>
+    <div id="contenedortarjetas">
+
+
+      <div class="demo-card-square mdl-card mdl-shadow--2dp">
+
+        <div class="mdl-card__title mdl-card--expand">
+          <!-- IMAGEN DE LA TARJETA -->
+          <img style="margin-left: 30%;" width="100px" src="img/logos/logotipo-de-playstation.png" alt="">
+
+        </div>
+        <!-- CONTENIDO DE LA TARJETA -->
+        <div class="mdl-card__supporting-text">
+          Bienvenido a la emocionante experiencia de Xbox, donde la magia de los videojuegos cobra vida.
+        </div>
+        <!-- BOTON SABER MAS -->
+        <div class="mdl-card__actions mdl-card--border">
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            Saber Mas
+          </a>
+        </div>
+      </div>
+
+      <!-- TARJETA -->
+      <div class="demo-card-square mdl-card mdl-shadow--2dp">
+
+        <div class="mdl-card__title mdl-card--expand">
+          <!-- IMAGEN DE LA TARJETA -->
+
+          <img style="margin-left: 30%;" width="100px" src="img/logos/logotipo-de-xbox.png" alt="">
+        </div>
+        <!-- CONTENIDO DE LA TARJETA -->
+        <div class="mdl-card__supporting-text">
+          Bienvenido a la emocionante experiencia de PlayStation, donde la magia de los videojuegos cobra vida.
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <!-- BOTON SABER MAS -->
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            Saber Mas
+          </a>
+        </div>
+      </div>
+
+      <div class="demo-card-square mdl-card mdl-shadow--2dp">
+        <div class="mdl-card__title mdl-card--expand">
+          <!-- IMAGEN DE LA TARJETA -->
+          <img style="margin-left: 30%;" width="100px" src="img/logos/computadora-personal.png" alt="">
+        </div>
+        <!-- TEXTO DE LA TARJETA -->
+        <div class="mdl-card__supporting-text">
+          Bienvenido a la emocionante experiencia de Pc, donde la magia de los videojuegos cobra vida.
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <!-- BOTON SABER MAS -->
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            Saber Mas
+          </a>
+        </div>
+      </div>
+
+    </div>
+    <h1 id="titulobot">NOTICIAS EVENTOS GAMING</h1>
+    <div id="notieicas">
+      <!-- TEXTO -->
+      <p id="intro2">Sumérgete en la efervescencia del mundo gaming con nuestras exclusivas Noticias y Eventos. Desde
+        los lanzamientos más esperados hasta coberturas detalladas de eventos épicos, te invitamos a explorar la
+        emocionante travesía de los videojuegos a través de nuestras cautivadoras tarjetas. Descubre las últimas
+        tendencias, participa en eventos exclusivos y mantente a la vanguardia de la escena gaming. ¡Bienvenido a un
+        universo donde la emoción nunca se detiene y la pasión por los videojuegos es la protagonista indiscutible!</p>
+    </div>
+    <div id="tarjetas2">
+
+
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="margin: 0; padding: 0;">
+        <div class="mdl-card__title mdl-card__title--expand" style="margin: 0; padding: 0;">
+          <!-- IMAGEN DE LA TARJETA -->
+          <img style="max-width: 100%; margin: 0; padding: 0;"
+            src="img/eventos/278180542_5164131210309472_7744365579522549045_n.webp" alt="Descripción de la imagen">
+          <h2 class="mdl-card__title-text">Welcome</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <!-- CONTENIDO DE LA TARJETA -->
+          <h1 style="font-size: 18px;">¡HEMOS VUELTO AL FESTIVAL METRÓPOLI DE GIJÓN!</h1>
+          <!-- Puedes añadir más texto o contenido después de la imagen si es necesario -->
+          Tras una larga espera a causa de la pandemia el equipo de PureGaming hemos vuelto al festival Metrópoli de
+          Gijón.
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <!-- A DE LA TARJETA -->
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            Get Started
+          </a>
+        </div>
+        <div class="mdl-card__menu">
+          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <!-- PARA COMPARTIR -->
+            <i class="material-icons">share</i>
+          </button>
+        </div>
+      </div>
+
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="margin: 0; padding: 0;">
+        <div class="mdl-card__title mdl-card__title--expand" style="margin: 0; padding: 0;">
+          <!-- IMAGEN DE LA TARJETA -->
+          <img style="max-width: 100%; margin: 0; padding: 0;" src="img/eventos/Destacada-SIm-Racing-Cup-final.webp"
+            alt="Descripción de la imagen">
+          <h2 class="mdl-card__title-text">Welcome</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <!-- TITULO DE LA TARJETA -->
+          <h1 style="font-size: 18px;">ASÍ SERÁ LA FIESTA KOJAK POWER RACING CUP </h1>
+          <!-- CONTENIDO DE LA TARJETA -->
+         <P> ¡Ya podemos confirmarlo! Después de nuestra presencia en Madrid Games Week, PureGaming estará en NiceOne
+          Barcelona .</P>
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <!-- BOTON NOMBRE -->
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            Get Started
+          </a>
+        </div>
+        <div class="mdl-card__menu">
+          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <!-- BOTON COMPARTIR -->
+            <i class="material-icons">share</i>
+          </button>
+        </div>
+      </div>
+
+
+<!-- TARJETA 3 -->
+      <div class="demo-card-wide mdl-card mdl-shadow--2dp" style="margin: 0; padding: 0;">
+        <div class="mdl-card__title mdl-card__title--expand" style="margin: 0; padding: 0;">
+          <!-- IMAGEN DE LA TARJETA -->
+          <img style="max-width: 100%; margin: 0; padding: 0;" src="img/eventos/n1barcelona.webp"
+            alt="Descripción de la imagen">
+            <!-- TITULO DE LA TARJETA -->
+          <h2 class="mdl-card__title-text">Welcome</h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <!-- CONTENIDO DE LA TARJETA -->
+          <h1 style="font-size: 18px;">PUREGAMING ESTARÁ EN NICEONE BARCELONA</h1>
+          ¡NiceOne Barcelona está a punto de comenzar! Si el nombre aún no os dice mucho.
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+          <!-- boton nombre -->
+          <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            Get Started
+          </a>
+        </div>
+        <div class="mdl-card__menu">
+          <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+            <i class="material-icons">share</i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TABLA JUEGOS MAS JUGAFOS -->
+  <h1 id="titulobot"> JUEGOS MAS JUGADOS - ¿CUALES HAS JUGADO?</h1>
+  <div id="contenedortabal">
+    <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+      <thead>
+        <tr>
+          <th class="mdl-data-table__cell--non-numeric">Título</th>
+          <th>Género</th>
+          <th>Plataforma</th>
+          <th>Fecha de lanzamiento</th>
+          <th>Desarrollador</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">The Legend of Zelda: Breath of the Wild</td>
+          <td>Aventura</td>
+          <td>Nintendo Switch</td>
+          <td>Marzo 3, 2017</td>
+          <td>Nintendo</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Cyberpunk 2077</td>
+          <td>RPG de acción</td>
+          <td>Multiplataforma</td>
+          <td>Diciembre 10, 2020</td>
+          <td>CD Projekt</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Fortnite</td>
+          <td>Battle Royale</td>
+          <td>Multiplataforma</td>
+          <td>Julio 25, 2017</td>
+          <td>Epic Games</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Red Dead Redemption 2</td>
+          <td>Aventura</td>
+          <td>PlayStation, Xbox, PC</td>
+          <td>Octubre 26, 2018</td>
+          <td>Rockstar Games</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">League of Legends</td>
+          <td>MOBA</td>
+          <td>PC</td>
+          <td>Octubre 27, 2009</td>
+          <td>Riot Games</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Assassin's Creed Valhalla</td>
+          <td>Aventura de acción</td>
+          <td>PlayStation, Xbox, PC</td>
+          <td>Noviembre 10, 2020</td>
+          <td>Ubisoft</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">FIFA 22</td>
+          <td>Deportes</td>
+          <td>Multiplataforma</td>
+          <td>Octubre 1, 2021</td>
+          <td>EA Sports</td>
+        </tr>
+        <tr>
+          <td class="mdl-data-table__cell--non-numeric">Minecraft</td>
+          <td>Sandbox</td>
+          <td>Multiplataforma</td>
+          <td>Noviembre 18, 2011</td>
+          <td>Mojang</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <!-- VALORACIONES POPULARES -->
+  <h1 id="titulobot"> VALORACIONES POPULARES</h1>
+  <div id="tarjetas3">
+    <ul class="demo-list-three mdl-list">
+      <li class="mdl-list__item mdl-list__item--three-line">
+        <span class="mdl-list__item-primary-content">
+          <!-- CAMBIAMOS EL ICONO -->
+          <i class="material-icons mdl-list__item-avatar">User</i>
+          <!-- PARA EL NOMBRE -->
+          <span>Alberto Chicote</span>
+          <!-- PARA EL COMENTARIO -->
+          <span class="mdl-list__item-text-body">
+            Descubre la emocionante aventura de Resela 1, un juego lleno de acción y misterio en un mundo de fantasía.
+          </span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+          <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+        </span>
+      </li>
+      <li class="mdl-list__item mdl-list__item--three-line">
+        <span class="mdl-list__item-primary-content">
+          <i class="material-icons  mdl-list__item-avatar">videogame_asset</i>
+          <span>Fernando Alonso</span>
+          <span class="mdl-list__item-text-body">
+            Embárcate en una odisea épica con Resela 2, un juego de rol repleto de desafíos y criaturas asombrosas.
+          </span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+          <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+        </span>
+      </li>
+      <li class="mdl-list__item mdl-list__item--three-line">
+        <span class="mdl-list__item-primary-content">
+          <i class="material-icons  mdl-list__item-avatar">videogame_asset</i>
+          <span>Doña Leticia</span>
+          <span class="mdl-list__item-text-body">
+            Sumérgete en el fascinante universo de Resela 3, donde la estrategia y la acción se entrelazan en un mundo
+            extraordinario.
+          </span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+          <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+        </span>
+      </li>
+      <li class="mdl-list__item mdl-list__item--three-line">
+        <span class="mdl-list__item-primary-content">
+          <i class="material-icons mdl-list__item-avatar">videogame_asset</i>
+          <span>Isabel Pantoja</span>
+          <span class="mdl-list__item-text-body">
+            Enfréntate a nuevos desafíos y descubre secretos ocultos con Resela 4, un juego que redefine la experiencia
+            de juego.
+          </span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+          <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+        </span>
+      </li>
+      <li class="mdl-list__item mdl-list__item--three-line">
+        <span class="mdl-list__item-primary-content">
+          <i class="material-icons  mdl-list__item-avatar">videogame_asset</i>
+          <span>Kiko Rivera</span>
+          <span class="mdl-list__item-text-body">
+            Vive una experiencia única con Resela 5, donde la trama envolvente y los gráficos impresionantes te dejarán
+            sin aliento.
+          </span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+          <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+        </span>
+      </li>
+      <li class="mdl-list__item mdl-list__item--three-line">
+        <span class="mdl-list__item-primary-content">
+          <i class="material-icons  mdl-list__item-avatar">videogame_asset</i>
+          <span>Rita Cantaora</span>
+          <span class="mdl-list__item-text-body">
+            Explora mundos extraordinarios y enfrenta desafíos únicos con Resela 6, la próxima entrega de la saga de
+            videojuegos más emocionante.
+          </span>
+        </span>
+        <span class="mdl-list__item-secondary-content">
+          <a class="mdl-list__item-secondary-action" href="#"><i class="material-icons">star</i></a>
+        </span>
+      </li>
+
+    </ul>
+  </div>
+
+  <!-- FORMULARIO  -->
+  <h1 id="titulobot">FORMULARIO</h1>
+  <div id="tarjetas4">
+    <form action="#">
+      
+      <p>Introduce tu Nombre :</p>
+      <!-- INPUT TEXTO -->
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="sample1">
+        <label class="mdl-textfield__label" for="sample1">Nombre</label>
+      </div>
+      <p>Introduce tu Apellido :</p>
+      <!-- INPUT TEXTO -->
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="text" id="sample1">
+        <label class="mdl-textfield__label" for="sample1">Apellidos</label>
+      </div>
+      <p>Introduce correo electronico : </p>
+      <!-- PARA EL CORREO -->
+      <div class="mdl-textfield mdl-js-textfield">
+        <input class="mdl-textfield__input" type="email" id="sample1">
+        <label class="mdl-textfield__label" for="sample1">Correo</label>
+      </div>
+      <p>Comentario : </p>
+      <!-- TEXT FIELD -->
+      <div class="mdl-textfield mdl-js-textfield">
+        <textarea class="mdl-textfield__input" type="text" rows="3" id="sample5"></textarea>
+        <label class="mdl-textfield__label" for="sample5">Text lines...</label>
+      </div>
+      <p>Genero :</p>
+
+      <!-- CHECKBOX -->
+      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-1">
+        <input type="checkbox" id="checkbox-1" class="mdl-checkbox__input">
+        <span class="mdl-checkbox__label">Hombre</span>
+      </label>
+
+      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-2">
+        <input type="checkbox" id="checkbox-2" class="mdl-checkbox__input">
+        <span class="mdl-checkbox__label">Mujer</span>
+      </label>
+
+      <label class="mdl-checkbox mdl-js-checkbox mdl-js-ripple-effect" for="checkbox-3">
+        <input type="checkbox" id="checkbox-3" class="mdl-checkbox__input">
+        <span class="mdl-checkbox__label">Otros</span>
+      </label>
+
+      <!-- INPUT SLIDER -->
+      <input class="mdl-slider mdl-js-slider" type="range" min="0" max="100" value="25" tabindex="0">
+
+    </form>
+  </div>
+  <!-- AQUI IRIA EL EL EJERICICIO DE PRUEBA PARA HACER EN CLASE  -->
+  <h1 id="titulobot">EJERCICIO DE PRUEBA</h1>
+
+  <div>
+
+  </div>
+  <!-- AQUI ACABA EL EJERCICIO DE PRUEBA -->
+
+
+  </div>
+
+  <!-- FOOTER DE MDL -->
+  <footer class="demo-footer mdl-mini-footer">
+    <div class="mdl-mini-footer--left-section">
+      <ul class="mdl-mini-footer--link-list">
+        <li><a href="#">Alejandro Garcia</a></li>
+        <li><a href="#">Sara Perez</a></li>
+        <li><a href="#">Luis Barrado</a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
+
+
+<script>
+  // FUNCION PARA EL MENSAJE DE LA FLOTANTE DE MDL 
+  (function () {
+    'use strict';
+    window['counter'] = 0;
+    var snackbarContainer = document.querySelector('#demo-toast-example');
+    var showToastButton = document.querySelector('#demo-show-toast');
+    showToastButton.addEventListener('click', function () {
+      'use strict';
+      var data = { message: 'Trabajo MDL Framework | Alejandro, Luis, Sara' };
+      snackbarContainer.MaterialSnackbar.showSnackbar(data);
+    });
+  }());
+</script>
